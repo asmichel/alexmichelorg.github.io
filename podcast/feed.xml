@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Alexander Michel</title>
+    <link>https://www.alexmichel.org/</link>
+    <description>Personal audio uploads from Alexander Michel.</description>
+    <language>en-us</language>
+    <itunes:author>Alexander Michel</itunes:author>
+    <itunes:summary>Personal audio uploads from Alexander Michel.</itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <item>
+      <title>Neural Networks, Deep Learning, and PyTorch</title>
+      <description>A lecture on neural networks, optimization, generalization, architectures, and PyTorch.</description>
+      <enclosure
+        url="https://www.alexmichel.org/podcast/episodes/neural-networks-deep-learning-pytorch.mp3"
+        length="8655213"
+        type="audio/mpeg" />
+      <guid>https://www.alexmichel.org/podcast/episodes/neural-networks-deep-learning-pytorch.mp3</guid>
+      <pubDate>Tue, 18 Mar 2026 22:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
