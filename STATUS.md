@@ -7,8 +7,9 @@ This repository backs the personal website at ``www.alexmichel.org``.
 The site is currently a minimal static GitHub Pages site with:
 
 - a bare homepage
-- a podcast feed under ``/podcast/feed.xml``
-- a published lecture MP3 episode
+- a podcast feed under ``/podcast/feed.xml`` titled ``Sapientia Ducit``
+- podcast artwork under ``/podcast/artwork/cover.png``
+- published lecture MP3 episodes
 
 ## Publishing Setup
 
@@ -21,23 +22,23 @@ The repository also has a ``master`` branch, but the live site is published from
 ## Current Site Contents
 
 - ``index.html``: minimal homepage stating that this is the personal site of Alexander Michel
-- ``podcast/feed.xml``: RSS feed for personal audio uploads
-- ``podcast/index.html``: simple pointer page for the podcast feed
+- ``podcast/feed.xml``: RSS feed for ``Sapientia Ducit``
+- ``podcast/index.html``: simple landing page for the podcast feed with the current artwork
+- ``podcast/artwork/cover.png``: current square podcast artwork image
+- ``podcast/artwork/open-book-source.png``: downloaded source raster for the current artwork
 - ``podcast/episodes/neural-networks-deep-learning-pytorch.mp3``: published lecture audio file
+- ``podcast/episodes/slurm.mp3``: published lecture audio file
 - ``CNAME``: custom domain configuration for GitHub Pages
 
-## Current Podcast Episode
+## Current Podcast Episodes
 
+- Feed title: ``Sapientia Ducit``
+- Feed description: ``Audio lectures and notes for thinking things through.``
 - Title: ``Neural Networks, Deep Learning, and PyTorch``
+- Title: ``Cluster Computing with Slurm: Jobs, Resources, Scheduling, and Performance``
 - Feed URL: ``https://www.alexmichel.org/podcast/feed.xml``
 - Audio URL: ``https://www.alexmichel.org/podcast/episodes/neural-networks-deep-learning-pytorch.mp3``
-
-## Recent Work
-
-- Replaced the old placeholder homepage with a minimal static HTML page.
-- Added a podcast feed and a feed index page.
-- Published the lecture audio as a named MP3 episode instead of the earlier test file.
-- Updated the live publishing branch by creating and pushing a real ``gh-pages`` branch, because GitHub Pages was configured to publish from ``gh-pages`` rather than ``master``.
+- Audio URL: ``https://www.alexmichel.org/podcast/episodes/slurm.mp3``
 
 ## Notes
 

@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
-    <title>Alexander Michel</title>
+    <title>Sapientia Ducit</title>
     <link>https://www.alexmichel.org/</link>
-    <description>Personal audio uploads from Alexander Michel.</description>
+    <description>Audio lectures and notes for thinking things through.</description>
     <language>en-us</language>
     <itunes:author>Alexander Michel</itunes:author>
-    <itunes:summary>Personal audio uploads from Alexander Michel.</itunes:summary>
+    <itunes:summary>Audio lectures and notes for thinking things through.</itunes:summary>
+    <image>
+      <url>https://www.alexmichel.org/podcast/artwork/cover.png</url>
+      <title>Sapientia Ducit</title>
+      <link>https://www.alexmichel.org/</link>
+    </image>
+    <itunes:image href="https://www.alexmichel.org/podcast/artwork/cover.png" />
     <itunes:explicit>false</itunes:explicit>
+    <item>
+      <title>Cluster Computing with Slurm: Jobs, Resources, Scheduling, and Performance</title>
+      <description>An audio lecture on Slurm.</description>
+      <enclosure
+        url="https://www.alexmichel.org/podcast/episodes/slurm.mp3"
+        length="28833645"
+        type="audio/mpeg" />
+      <guid>https://www.alexmichel.org/podcast/episodes/slurm.mp3</guid>
+      <pubDate>Thu, 19 Mar 2026 23:00:00 GMT</pubDate>
+    </item>
     <item>
       <title>Neural Networks, Deep Learning, and PyTorch</title>
       <description>A lecture on neural networks, optimization, generalization, architectures, and PyTorch.</description>
@@ -16,7 +32,7 @@
         length="8655213"
         type="audio/mpeg" />
       <guid>https://www.alexmichel.org/podcast/episodes/neural-networks-deep-learning-pytorch.mp3</guid>
-      <pubDate>Tue, 18 Mar 2026 22:00:00 GMT</pubDate>
+      <pubDate>Wed, 18 Mar 2026 22:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
