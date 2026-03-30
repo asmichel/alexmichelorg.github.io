@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>Sapientia Ducit</title>
     <link>https://www.alexmichel.org/</link>
@@ -15,22 +15,23 @@
     <itunes:image href="https://www.alexmichel.org/podcast/artwork/cover.png" />
     <itunes:explicit>false</itunes:explicit>
     <item>
+      <title>Python</title>
+      <description>A lecture on Python.</description>
+      <enclosure url="https://www.alexmichel.org/podcast/episodes/python.mp3" length="76709325" type="audio/mpeg" />
+      <guid>https://www.alexmichel.org/podcast/episodes/python.mp3</guid>
+      <pubDate>Mon, 30 Mar 2026 23:43:06 GMT</pubDate>
+    </item>
+    <item>
       <title>Cluster Computing with Slurm: Jobs, Resources, Scheduling, and Performance</title>
       <description>An audio lecture on Slurm.</description>
-      <enclosure
-        url="https://www.alexmichel.org/podcast/episodes/slurm.mp3"
-        length="28833645"
-        type="audio/mpeg" />
+      <enclosure url="https://www.alexmichel.org/podcast/episodes/slurm.mp3" length="28833645" type="audio/mpeg" />
       <guid>https://www.alexmichel.org/podcast/episodes/slurm.mp3</guid>
       <pubDate>Thu, 19 Mar 2026 23:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Neural Networks, Deep Learning, and PyTorch</title>
       <description>A lecture on neural networks, optimization, generalization, architectures, and PyTorch.</description>
-      <enclosure
-        url="https://www.alexmichel.org/podcast/episodes/neural-networks-deep-learning-pytorch.mp3"
-        length="8655213"
-        type="audio/mpeg" />
+      <enclosure url="https://www.alexmichel.org/podcast/episodes/neural-networks-deep-learning-pytorch.mp3" length="8655213" type="audio/mpeg" />
       <guid>https://www.alexmichel.org/podcast/episodes/neural-networks-deep-learning-pytorch.mp3</guid>
       <pubDate>Wed, 18 Mar 2026 22:00:00 GMT</pubDate>
     </item>
